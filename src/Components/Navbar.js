@@ -7,7 +7,6 @@ const Navbar = () => {
     const navbar = useRef(null)
 
     const navbarOpen = () => {
-        alert('Clicked')
         if (active === 0)
         {
             navbar.current.style.transform = 'translateX(0%)'
