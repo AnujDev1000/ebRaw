@@ -1,0 +1,167 @@
+:root
+{
+    --baseColor01 : #002046;
+    --baseColor02 : #ffffff;
+}
+.user
+{
+    padding: 5% 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #ececec;
+}
+.user-offer-box
+{
+    position: relative;
+    padding: 4%;
+    flex: 1;
+}
+.user-offer-img::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .5;
+}
+.user-offer-img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.user-offer-img img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.user-offer-box h2
+{
+    position: relative;
+    color: var(--baseColor02);
+    text-align: center;
+    text-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+}
+.user-offer-box h1
+{
+    position: relative;
+    color: var(--baseColor02);
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+}
+.user-signup-box
+{
+    position: relative;
+    padding: 4%;
+    flex: 1;
+}
+.user-signup-img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.user-signup-img::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .5;
+}
+.user-signup-img img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.user-signup-box h2
+{
+    position: relative;
+    color: var(--baseColor02);
+    text-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+}
+.user-signup-box p
+{
+    margin-top: .2rem;
+    position: relative;
+    font-size: .8rem;
+    color: var(--baseColor02);
+    text-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+}
+.user-input-box
+{
+    position: relative;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+}
+.user-input-box input
+{
+    flex: 1;
+    padding: .7rem;
+    border: none;
+    box-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+}
+.user-input-box button
+{
+    padding: 0 1rem;
+    border: none;
+    background-color: #2b2b2b;
+    color: white;
+    box-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+}
+
+
+
+
+@media (max-width: 770px)
+{
+    .user
+    {
+        padding: 10% 7%;
+        flex-direction: column;
+    }
+    .user-offer-box
+    {
+        padding: 10% 4%;
+    }
+    .user-signup-box
+    {
+        padding: 10% 4%;
+    }
+}
+
+
+@media (max-width: 500px)
+{
+    .user-input-box
+    {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .user-input-box button
+    {
+        width: max-content;
+        margin: auto;
+        padding: .4rem .5rem;
+    }
+}

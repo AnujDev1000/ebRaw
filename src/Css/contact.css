@@ -1,0 +1,82 @@
+:root
+{
+    --baseColor01 : #002046;
+    --baseColor02 : #ffffff;
+}
+.contacts
+{
+    padding: 5% 7%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: rgb(61, 61, 61);
+}
+.contact-company-details h1
+{
+    color: var(--baseColor02);
+}
+.contact-company-details p
+{
+    color: var(--baseColor02);
+}
+.contact-social-icons
+{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--baseColor02);
+}
+.social-icon
+{
+    cursor: pointer;
+}
+.contact-links-box
+{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: var(--baseColor02);
+}
+.contact-links-box h2
+{
+    font-size: 1.1rem;
+    margin-bottom: .2rem;
+}
+.contact-links-box a
+{
+    color: var(--baseColor02);
+    font-size: .9rem;
+}
+
+
+
+
+@media (max-width: 1000px)
+{
+    .contacts
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 2rem;
+    }
+    .contact-company-details
+    {
+        grid-column: 1/5;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width: 650px)
+{
+    .contacts
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-company-details
+    {
+        grid-column: 1/3;
+    }
+}

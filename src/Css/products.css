@@ -1,0 +1,108 @@
+:root
+{
+    --baseColor01 : #002046;
+    --baseColor02 : #ffffff;
+}
+.products
+{
+    padding: 5% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ececec;
+}
+.products > h1
+{
+    text-align: center;
+}
+.products > p
+{
+    padding: 1% 20%;
+    text-align: center;
+}
+.product-header
+{
+    padding: 3% 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.product-heading
+{
+    padding: .5rem .8rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.product-heading:nth-child(1)
+{
+    background-color: var(--baseColor01);
+    color: var(--baseColor02);
+}
+.product-box-group
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.products > button
+{
+    width: max-content;
+    margin: auto;
+    padding: 1% 5%;
+    margin-top: 1rem;
+    border: none;
+    background-color: var(--baseColor01);
+    border-radius: .2rem;
+    color: var(--baseColor02);  
+    box-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 768px)
+{
+    .products > p
+    {
+        padding: 1% 0%;
+    }
+    .product-header
+    {
+        gap: unset;
+        padding: 6% 0;
+        flex-wrap: wrap;
+    }
+    .product-box-group
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .products > button
+    {
+        padding: 1.5% 6%;
+    }
+}
+
+
+@media (max-width: 500px)
+{
+    .products
+    {
+        padding: 15% 7%;
+    }
+    .product-header
+    {
+        padding: 10% 0;
+    }
+    .product-box-group
+    {
+        grid-template-columns: 1fr;
+    }
+    .products > button
+    {
+        padding: 3.5% 9%;
+    }
+}

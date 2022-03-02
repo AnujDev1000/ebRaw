@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift light';
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: .3s all;
+}
+hr
+{
+    margin: 0;
+    background-color: rgb(190, 190, 190);
+}
+.header
+{
+    z-index: 2;
+}

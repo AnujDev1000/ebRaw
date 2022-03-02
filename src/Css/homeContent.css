@@ -1,0 +1,150 @@
+:root
+{
+    --baseColor01 : #002046;
+    --baseColor02 : #ffffff;
+}
+.home-content
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5% 10%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.home-content-info
+{
+    flex: 3;
+    padding: 2%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-content-info p
+{
+    font-size: 1.1rem;
+    color: rgb(148, 147, 147);
+}
+.home-content-info h1
+{
+    font-size: 5rem;
+    color: white;
+}
+.home-content-info h2
+{
+    font-size: 3rem;
+    color: rgb(204, 204, 204);
+}
+.home-content-info button
+{
+    width: max-content;
+    padding: 3% 9%;
+    margin-top: 1rem;
+    border: none;
+    background-color: var(--baseColor02);
+    border-radius: .2rem;
+    color: var(--baseColor01);  
+    box-shadow: .1rem .1rem .2rem rgba(0,0,0,.4);
+}
+.home-content-img
+{
+    position: relative;
+    height: 500px;
+    flex: 5;
+}
+.home-content-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;   
+}
+.home-content-indexer
+{
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.home-content-index
+{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid var(--baseColor02);
+    cursor: pointer;
+}
+
+@media (max-width: 1022px)
+{
+    
+}
+
+@media (max-width: 700px)
+{
+    .home-content
+    {
+        padding: 4% 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    } 
+    .home-content-info
+    {
+        flex: 1;
+    }
+    .home-content-info p
+    {
+        font-size: .9rem;
+    }
+    .home-content-info h1
+    {
+        font-size: 4rem;
+    }
+    .home-content-info h2
+    {
+        font-size: 2rem;
+    }
+    .home-content-img
+    {
+        position: relative;
+        flex: 2;
+    }
+    .home-content-img img
+    {
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 574px)
+{
+    .home-content-indexer
+    {
+        top: 96%;
+    } 
+    .home-content-info p
+    {
+        font-size: .9rem;
+    }
+    .home-content-info h1
+    {
+        font-size: 3rem;
+    }
+    .home-content-info h2
+    {
+        font-size: 1.7rem;
+    }  
+}
+
+

@@ -1,0 +1,61 @@
+:root
+{
+    --baseColor01 : #002046;
+    --baseColor02 : #ffffff;
+}
+.feature
+{
+    position: relative;
+    padding: 7%;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-box
+{
+    flex: 1;
+    display: flex;
+    padding: .4rem .7rem;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid var(--baseColor01);
+}
+.feature-icon-box
+{
+    padding: .6rem .8rem;
+    padding-bottom: .3rem;
+    background-color: var(--baseColor01);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--baseColor02);
+}
+
+@media (max-width: 574px)
+{
+    .feature
+    {
+        padding: 15% 7%;
+        flex-direction: column;
+        justify-content: unset;
+    }
+    .feature-box
+    {
+        width: 100%;
+        justify-content: unset;
+        gap: .5rem;
+    }
+    .feature-info h2
+    {
+        font-size: 1.2rem;
+    }
+    .feature-icon-box
+    {
+        font-size: 1.2rem;
+    }
+}

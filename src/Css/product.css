@@ -1,0 +1,76 @@
+:root
+{
+    --baseColor01 : #002046;
+    --baseColor02 : #ffffff;
+}
+.product-box
+{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    background-color: var(--baseColor02);
+}
+.product-img-box
+{
+    position: relative;
+    height: 300px;
+    flex: 1;
+    border-bottom: .1rem solid #ececec;
+}
+.product-img-box img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.product-content-box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding: 5%;
+}
+.product-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.star-box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    font-size: .7rem;
+}
+.product-content button
+{
+    width: max-content;
+    padding: 3% 9%;
+    margin-top: 1rem;
+    border: .1rem solid black;
+    background: none;
+    color: black;  
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 500px)
+{
+    .product-box
+    {
+        height: 600px;
+    }
+    .product-img-box
+    {
+        height: 400px;
+    }
+}
