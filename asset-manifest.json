@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ebRaw/static/css/main.b821a0ac.css",
+    "main.js": "/ebRaw/static/js/main.932dbb4c.js",
+    "static/media/blogImg2.jpg": "/ebRaw/static/media/blogImg2.b466bffbddc26ad7a706.jpg",
+    "static/media/homeContentImg3.jpg": "/ebRaw/static/media/homeContentImg3.a7190846948c171e909a.jpg",
+    "static/media/homeContentImg.jpg": "/ebRaw/static/media/homeContentImg.1de5fa94c49a00e26e97.jpg",
+    "static/media/homeImg.jpg": "/ebRaw/static/media/homeImg.09945d270a85ea3ab19d.jpg",
+    "static/media/categoryImg2.png": "/ebRaw/static/media/categoryImg2.c9f706e2d72ef6df319a.png",
+    "static/media/productImg4.png": "/ebRaw/static/media/productImg4.8181f972d7f057aa3cf6.png",
+    "static/media/productImg2.png": "/ebRaw/static/media/productImg2.8467b1198e14f64b16f4.png",
+    "static/media/offerImg.png": "/ebRaw/static/media/offerImg.d9338a1df5201cc89a83.png",
+    "static/media/blogImg1.jpg": "/ebRaw/static/media/blogImg1.a5dcf771a9df97a231a6.jpg",
+    "static/media/productImg5.png": "/ebRaw/static/media/productImg5.eb8c31755a632109fa31.png",
+    "static/media/productImg6.png": "/ebRaw/static/media/productImg6.b16f472e18aab2422669.png",
+    "static/media/homeContentImg2.jpg": "/ebRaw/static/media/homeContentImg2.6e6ee0c51a7c96619fc6.jpg",
+    "static/media/productImg3.png": "/ebRaw/static/media/productImg3.e93754e7ba69f049f19a.png",
+    "static/media/categoryImg1.png": "/ebRaw/static/media/categoryImg1.b3aa43049bb2a88b4824.png",
+    "static/media/blogImg3.jpg": "/ebRaw/static/media/blogImg3.d6290c12dcab507aa037.jpg",
+    "static/media/productImg1.png": "/ebRaw/static/media/productImg1.ef5b9a7ae1df3ee451a8.png",
+    "static/media/customerImg2.png": "/ebRaw/static/media/customerImg2.cbf42a73e698cb095c8f.png",
+    "static/media/customerImg1.png": "/ebRaw/static/media/customerImg1.811ba819ff87a30aa3ab.png",
+    "static/media/customerImg3.png": "/ebRaw/static/media/customerImg3.e989e576974257f558e9.png",
+    "static/media/customerImg4.png": "/ebRaw/static/media/customerImg4.3c5923e00926e37f8e99.png",
+    "index.html": "/ebRaw/index.html",
+    "main.b821a0ac.css.map": "/ebRaw/static/css/main.b821a0ac.css.map",
+    "main.932dbb4c.js.map": "/ebRaw/static/js/main.932dbb4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b821a0ac.css",
+    "static/js/main.932dbb4c.js"
+  ]
+}
